@@ -1,0 +1,101 @@
+/* Reset default browser settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #6ae6f9;
+    color: #2e0663;
+  }
+  
+  /* Header styling */
+  header {
+    background: #210253;
+    color: #ebfa1e;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%; /* Ensures the image is responsive */
+    width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  #achievements img {
+    width: 150px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add spacing */
+    border: 2px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+}
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #74acc1;
+    text-decoration: none;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Project cards */
+  .project-card {
+    background: #66c9f0;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input, form textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #090254;
+    color: #b4e5f7;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #032bf2;
+  }
+  
+  /* Footer */
+  footer {
+    background: #107105;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+  }
+  
